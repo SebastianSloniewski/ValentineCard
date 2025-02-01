@@ -67,6 +67,7 @@ body{
 
 #rose{
     display: none;
+    max-width: 600px;
     width: 80%;
     margin: auto;
 }
