@@ -69,8 +69,8 @@ function placeFakeButtonRandomly() {
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
 
-    const randomTop = Math.floor(Math.random() * (viewportHeight - fakeButton.offsetHeight));
-    const randomLeft = Math.floor(Math.random() * (viewportWidth - fakeButton.offsetWidth));
+    const randomTop = Math.floor(Math.random() * (viewportHeight - fakeButton.offsetHeight - 40));
+    const randomLeft = Math.floor(Math.random() * (viewportWidth - fakeButton.offsetWidth - 40));
     fakeButton.style.top = `${randomTop}px`;
     fakeButton.style.left = `${randomLeft}px`;
 
